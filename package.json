@@ -1,0 +1,22 @@
+{
+  "author": "Nathan Ringo <remexre@gmail.com>",
+  "bugs": {
+    "email": "remexre@gmail.com",
+    "url": "https://github.com/remexre/eslint-config-remexre/issues"
+  },
+  "description": "My ESLint/XO config.",
+  "devDependencies": {
+    "eslint": "^2.11.1"
+  },
+  "homepage": "https://github.com/remexre/eslint-config-remexre",
+  "license": "MIT",
+  "name": "eslint-config-remexre",
+  "peerDependencies": {
+    "eslint": "^2.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remexre/eslint-config-remexre.git"
+  },
+  "version": "1.0.0"
+}

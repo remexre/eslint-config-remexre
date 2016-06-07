@@ -1,0 +1,72 @@
+{
+	"env": {
+		"browser": true,
+		"jquery": true
+	},
+	"esnext": true,
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"rules": {
+		"brace-style": [
+			"error",
+			"1tbs",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"comma-dangle": [
+			"error",
+			"always-multiline"
+		],
+		"curly": [
+			"error",
+			"multi-or-nest",
+			"consistent"
+		],
+		"key-spacing": [
+			"error",
+			{
+				"align": "value"
+			}
+		],
+		"keyword-spacing": [
+			"error",
+			{
+				"before": true,
+				"after": true,
+				"overrides": {
+					"for": {
+						"after": false
+					},
+					"if": {
+						"after": false
+					},
+					"switch": {
+						"after": false
+					},
+					"while": {
+						"after": false
+					}
+				}
+			}
+		],
+		"indent": [
+			"error",
+			"tab"
+		],
+		"no-multi-spaces": [
+			"error",
+			{
+				"exceptions": {
+					"ImportDeclaration": true,
+					"VariableDeclarator": true
+				}
+			}
+		],
+		"quotes": [
+			"error",
+			"double"
+		]
+	}
+}
