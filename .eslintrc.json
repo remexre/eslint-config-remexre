@@ -1,8 +1,4 @@
 {
-	"env": {
-		"browser": true,
-		"jquery": true
-	},
 	"esnext": true,
 	"parserOptions": {
 		"ecmaVersion": 6
